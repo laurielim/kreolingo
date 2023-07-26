@@ -1,0 +1,18 @@
+{
+  "title": "Lesson 4",
+  "description": "Discuss food and drink, talk about animals",
+  "content": [
+    {
+      "type": "S",
+      "question": "Mo ___ Jean",
+      "answer": "Mo apel Jean",
+      "options": ["dipain", "bwar", "apel"]
+    },
+    {
+      "type": "MC",
+      "question": "How do you say 'rice'?",
+      "answer": "diri",
+      "options": ["tifi", "diri", "misier"]
+    }
+  ]
+}

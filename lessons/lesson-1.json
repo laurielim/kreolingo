@@ -1,0 +1,22 @@
+{
+  "title": "Lesson 1",
+  "description": "Use basic phrases, talk about food and drink",
+  "content":  [
+    {
+      "type": "MC",
+      "question": "Select the correct option",
+      "options": {
+        "man": "misier",
+        "woman": "madam",
+        "bread": "dipain",
+        "girl": "tifi"
+      }
+    },
+    {
+      "type": "Q",
+      "question": "How do you say 'girl'?",
+      "answer": "tifi",
+      "options": ["tifi", "diri", "misier"]
+    }
+  ]
+}
