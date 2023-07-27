@@ -5,6 +5,7 @@
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
+	import { page } from "$app/stores";
 	import { AppShell, AppBar, Drawer, drawerStore } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
 
@@ -15,15 +16,18 @@
 	}
 
 	export let data;
+
+	let path: string;
+  $: path = $page.url.pathname;
 </script>
 
 <!-- Drawer Overlay -->
 <Drawer>
-	<Navigation lessons={data.lessons} />
+	<Navigation lessons={data.lessons} {path} />
 </Drawer>
 
 <!-- App Shell -->
-<AppShell slotSidebarLeft="bg-surface-500/5 w-0 lg:w-56">
+<AppShell slotSidebarLeft="bg-surface-500/5 w-0 lg:w-64">
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
 		<AppBar>
@@ -43,15 +47,13 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
-					class="btn"
+					class="btn hover:variant-ringed"
 					href="/about"
-					target="_blank"
-					rel="noreferrer"
 				>
 					About
 				</a>
 				<a
-				class="btn"
+				class="btn hover:variant-ringed"
 				href="https://github.com/laurielim/kreolingo"
 				target="_blank"
 				rel="noreferrer"
@@ -63,7 +65,7 @@
 	</svelte:fragment>
 	<!-- Left Sidebar Slot -->
 	<svelte:fragment slot="sidebarLeft">
-		<Navigation lessons={data.lessons} />
+		<Navigation lessons={data.lessons} {path}/>
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
