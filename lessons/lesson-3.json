@@ -3,16 +3,16 @@
   "description": "Say what you don't do, use articles",
   "content": [
     {
-      "type": "MC",
-      "question": "Mo ___ Jean",
-      "answer": "Mo apel Jean",
-      "options": ["dipain", "bwar", "apel"]
+      "type": "fillBlank",
+      "question": ["Mo", "koné"],
+      "answer": "pa",
+      "options": ["pa", "bwar", "delo"]
     },
     {
-      "type": "Q",
-      "question": "How do you say 'rice'?",
-      "answer": "diri",
-      "options": ["tifi", "diri", "misier"]
+      "type": "translate",
+      "question": "A boy",
+      "answer": "Ene garson",
+      "options": ["tifi", "Ene", "pa"]
     }
   ]
 }

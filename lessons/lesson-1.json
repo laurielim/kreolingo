@@ -3,8 +3,7 @@
   "description": "Use basic phrases, talk about food and drink",
   "content":  [
     {
-      "type": "MC",
-      "question": "Select the correct option",
+      "type": "match",
       "options": {
         "man": "misier",
         "woman": "madam",
@@ -13,7 +12,7 @@
       }
     },
     {
-      "type": "Q",
+      "type": "multipleChoice",
       "question": "How do you say 'girl'?",
       "answer": "tifi",
       "options": ["tifi", "diri", "misier"]

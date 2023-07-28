@@ -3,13 +3,13 @@
   "description": "Greet people, use affirmative phrases",
   "content": [
     {
-      "type": "S",
-      "question": "Mo ___ Jean",
-      "answer": "Mo apel Jean",
+      "type": "fillBlank",
+      "question": ["Mo", "Jean"],
+      "answer": "apel",
       "options": ["dipain", "bwar", "apel"]
     },
     {
-      "type": "Q",
+      "type": "multipleChoice",
       "question": "How do you say 'rice'?",
       "answer": "diri",
       "options": ["tifi", "diri", "misier"]
