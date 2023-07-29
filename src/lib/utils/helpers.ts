@@ -1,12 +1,5 @@
 
-interface Question {
-  type: string,
-  question: string,
-  answer: string,
-  options: string[],
-}
-
-export const randomize = (array: Array<Question>) => {
+export const randomize = (array: Array<any>) => {
   let currentIndex = array.length,  randomIndex;
   // While there remain elements to shuffle.
 
