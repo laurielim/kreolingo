@@ -26,9 +26,9 @@
 
 <h2 class="h2">
   {question[0]}
-  <span class="inline-flex align-text-bottom justify-center min-w-[8ch] px-[2ch] border-b-2 border-b-gray-200">
+  <span class="inline-flex align-text-bottom justify-center min-h-[34px] min-w-[8ch] px-[2ch] border-b-2 border-b-gray-200">
     {#if selected}
-      <span class="text-base mb-1">{selected}</span>
+      <span class="chip variant-filled md:text-base mb-1">{selected}</span>
     {/if}
   </span>
   {question[1]}
