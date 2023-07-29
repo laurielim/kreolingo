@@ -5,18 +5,18 @@
   let selected: string = "";
 
   const handleSubmit = () => {
-    if (answer == selected) {
-      dispatch('completed', {
-        status: 'success',
-        message: 'Good job!'
-      })
-    } else {
-      dispatch('completed', {
-        status: 'error',
-        message: `The answer is "${question[0]} ${answer} ${question[1]}""`
-      })
+    let status = "success";
+    let message = "That's correct, good job";
+
+    if (answer != selected) {
+      status = 'error';
+      message = `The answer is "${question[0]} ${answer} ${question[1]}"`
     }
 
+    dispatch('completed', {
+      status,
+      message
+    })
   }
 
   export let question: string[];
@@ -28,7 +28,7 @@
   {question[0]}
   <span class="inline-flex align-text-bottom justify-center min-w-[8ch] px-[2ch] border-b-2 border-b-gray-200">
     {#if selected}
-      <span class="chip text-base variant-filled mb-1">{selected}</span>
+      <span class="text-base mb-1">{selected}</span>
     {/if}
   </span>
   {question[1]}
@@ -36,9 +36,10 @@
 <form on:submit|preventDefault={handleSubmit}>
   <fieldset class="flex flex-col gap-4 mt-8">
     {#each options as option}
-      <label class="chip text-base {selected === option ? "variant-ghost" : "variant-filled"}">
+      <label class="chip text-base font-semibold {selected === option ? "variant-ghost opacity-50" : "variant-filled"}">
         <input
           bind:group={selected}
+          class="hidden"
           name="options"
           type="radio"
           value={option}
@@ -47,15 +48,9 @@
       </label>
     {/each}
   </fieldset>
-  <button class="btn my-8 variant-filled-primary w-full md:w-fit" type="submit">
+  <button class="btn my-8 variant-filled-primary w-full" disabled={!selected} type="submit">
     Check
   </button>
 </form>
-
-<style>
-  input[type="radio"] {
-    display: none;
-  }
-</style>
 
 
