@@ -53,7 +53,7 @@
 					About
 				</a>
 				<a
-				class="btn hover:variant-ringed"
+				class="btn hover:variant-ringed hidden md:block"
 				href="https://github.com/laurielim/kreolingo"
 				target="_blank"
 				rel="noreferrer"
