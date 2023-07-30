@@ -37,7 +37,7 @@
 
 </script>
 
-<div class="grid grid-cols-2 gap-x-24 mt-8 mb-8">
+<div class="grid grid-cols-2 gap-x-12 md:gap-x-24 mt-8 mb-8">
   <div class="keys flex flex-col gap-4">
     {#each keys as key}
       <label class="chip text-base font-semibold {selectedKey === key ? "variant-filled-surface" : "variant-filled"} {pairedKeys.includes(key) ? "variant-soft-success" : ""}">
