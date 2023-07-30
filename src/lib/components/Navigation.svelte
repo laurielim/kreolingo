@@ -27,5 +27,5 @@
       {/each}
     </ul>
   </nav>
-  <p class="ml-4 pb-2">Created by <a class="underline" href="//laurielim.github.io/">Laurie Lim Sam</a></p>
+  <p class="ml-4 pb-2">Created by <a class="anchor" href="//laurielim.github.io/">Laurie Lim Sam</a></p>
 </div>
