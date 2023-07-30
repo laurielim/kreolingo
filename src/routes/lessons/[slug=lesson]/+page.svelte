@@ -48,7 +48,7 @@
 			image: 'https://i.imgur.com/WOgTG96.gif',
 			response: () => {
 				container.scrollIntoView();
-				goto(`/lesson-${data.id + 1}`);
+				goto(`/lessons/lesson-${data.id + 1}`);
 			}
 		};
 		modalStore.trigger(modal);
