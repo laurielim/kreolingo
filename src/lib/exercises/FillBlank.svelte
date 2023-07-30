@@ -6,7 +6,7 @@
 
   const handleSubmit = () => {
     let status = "success";
-    let message = "That's correct, good job";
+    let message = `That's correct, it means "${translation}"`;
 
     if (answer != selected) {
       status = 'error';
@@ -22,6 +22,7 @@
   export let question: string[];
   export let answer: string;
   export let options: string[];
+  export let translation: string;
 </script>
 
 <h2 class="h2">

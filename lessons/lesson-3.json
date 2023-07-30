@@ -7,7 +7,8 @@
       "type": "fillBlank",
       "question": ["Mo", "koné"],
       "answer": "pa",
-      "options": ["pa", "bwar", "delo"]
+      "options": ["pa", "bwar", "delo"],
+      "translation": "I don't know"
     },
     {
       "type": "translate",

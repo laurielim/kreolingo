@@ -7,7 +7,8 @@
       "type": "fillBlank",
       "question": ["Mo", "delo"],
       "answer": "bwar",
-      "options": ["dipain", "bwar", "apel"]
+      "options": ["dipain", "bwar", "apel"],
+      "translation": "I drink water"
     },
     {
       "type": "multipleChoice",

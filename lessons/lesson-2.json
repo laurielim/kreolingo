@@ -7,7 +7,8 @@
       "type": "fillBlank",
       "question": ["Mo", "Jean"],
       "answer": "apel",
-      "options": ["dipain", "bwar", "apel"]
+      "options": ["dipain", "bwar", "apel"],
+      "translation": "I'm called Jean"
     },
     {
       "type": "multipleChoice",
