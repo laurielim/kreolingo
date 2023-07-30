@@ -6,8 +6,10 @@
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	import { page } from "$app/stores";
-	import { AppShell, AppBar, Drawer, drawerStore } from '@skeletonlabs/skeleton';
-	import Navigation from '$lib/Navigation/Navigation.svelte';
+	import { AppShell, AppBar, Drawer, drawerStore, Modal } from '@skeletonlabs/skeleton';
+	import Navigation from '$lib/components/Navigation.svelte';
+	import HeaderLead from '$lib/components/HeaderLead.svelte';
+	import HeaderTrail from '$lib/components/HeaderTrail.svelte';
 
 	function drawerOpen(): void {
 			drawerStore.open({
@@ -26,40 +28,19 @@
 	<Navigation lessons={data.lessons} {path} />
 </Drawer>
 
+<!-- Modal Overlay -->
+<Modal buttonTextConfirm="Continue" />
+
 <!-- App Shell -->
 <AppShell slotSidebarLeft="bg-surface-500/5 w-0 lg:w-64">
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<div class="flex items-center">
-					<button class="lg:hidden btn btn-sm mr-4"  on:click={drawerOpen}>
-							<span>
-									<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
-											<rect width="100" height="20" />
-											<rect y="30" width="100" height="20" />
-											<rect y="60" width="100" height="20" />
-									</svg>
-							</span>
-					</button>
-					<a href="/"><strong class="text-xl uppercase">Kreolingo</strong></a>
-			</div>
+				<HeaderLead />
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a
-					class="btn hover:variant-ringed"
-					href="/about"
-				>
-					About
-				</a>
-				<a
-				class="btn hover:variant-ringed hidden md:block"
-				href="https://github.com/laurielim/kreolingo"
-				target="_blank"
-				rel="noreferrer"
-			>
-				Github
-			</a>
+				<HeaderTrail />
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
