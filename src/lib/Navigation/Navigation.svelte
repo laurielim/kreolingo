@@ -18,7 +18,7 @@
 		  <li class="my-2 text-lg">
         <a
           class="{classesActive(lesson.id)}"
-          href="{lesson.id}"
+          href="{lesson.slug}"
           on:click={drawerClose}>
             {lesson.title}
         </a>

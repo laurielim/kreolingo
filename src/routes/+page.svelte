@@ -13,7 +13,7 @@
 		</p>
 		<div class="grid gap-8 grid-cols-1 lg:grid-cols-3">
 			{#each data.lessons as lesson}
-				<a href="/{lesson.id}" class="block">
+				<a href="/{lesson.slug}" class="block">
 					<article class="card card-hover min-h-full py-4 px-8 variant-ghost-surface">
 						<h2 class="mb-2 text-2xl font-bold tracking-tight">
 							{lesson.title}
