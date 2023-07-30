@@ -1,20 +1,20 @@
 {
-  "id": 4,
-  "title": "Lesson 4",
-  "description": "Discuss food and drink, talk about animals",
-  "content": [
-    {
-      "type": "fillBlank",
-      "question": ["Mo", "delo"],
-      "answer": "bwar",
-      "options": ["dipain", "bwar", "apel"],
-      "translation": "I drink water"
-    },
-    {
-      "type": "multipleChoice",
-      "question": "How do you say 'rice'?",
-      "answer": "diri",
-      "options": ["tifi", "diri", "misier"]
-    }
-  ]
+	"id": 4,
+	"title": "Lesson 4",
+	"description": "Discuss food and drink, talk about animals",
+	"content": [
+		{
+			"type": "fillBlank",
+			"question": ["Mo", "delo"],
+			"answer": "bwar",
+			"options": ["dipain", "bwar", "apel"],
+			"translation": "I drink water"
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'rice'?",
+			"answer": "diri",
+			"options": ["tifi", "diri", "misier"]
+		}
+	]
 }

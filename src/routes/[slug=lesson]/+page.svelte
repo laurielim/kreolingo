@@ -10,52 +10,51 @@
 	const options = {
 		fillBlank: {
 			component: FillBlank,
-			header: "Select the missing word",
+			header: 'Select the missing word'
 		},
 		match: {
 			component: Match,
-			header: "Tap the matching pairs",
+			header: 'Tap the matching pairs'
 		},
-	  multipleChoice: {
+		multipleChoice: {
 			component: MultipleChoice,
-			header: "Select the correct option",
+			header: 'Select the correct option'
 		},
 		translate: {
 			component: Translate,
-			header: "Translate this sentence",
-		},
-	}
+			header: 'Translate this sentence'
+		}
+	};
 
 	const unlockNext = (event) => {
 		const t = {
 			background: `variant-filled-${event.detail.status}`,
-			message: event.detail.message,
+			message: event.detail.message
 		};
 		toastStore.trigger(t);
 		lockedState = false;
-	}
+	};
 
-	const onNexthandler = () => lockedState = true;
+	const onNexthandler = () => (lockedState = true);
 
 	/** @type {HTMLDivElement} */
 	let container;
 
 	const onCompleteHandler = () => {
 		const modal = {
-			type: "confirm",
-			title: "Congratulations!",
+			type: 'confirm',
+			title: 'Congratulations!',
 			body: `You have completed ${data.title.toLowerCase()}. Click on continue to go to the next lesson.`,
 			image: 'https://i.imgur.com/WOgTG96.gif',
 			response: () => {
 				container.scrollIntoView();
-				goto(`/lesson-${data.id + 1}`)
-		  },
+				goto(`/lesson-${data.id + 1}`);
+			}
 		};
 		modalStore.trigger(modal);
-	}
+	};
 
-
-  export let data;
+	export let data;
 	$: exercises = randomize(data.content);
 	$: lockedState = data.lock;
 </script>
@@ -64,20 +63,20 @@
 	<h1 class="h1 mt-4 md:mt-8">{data.title}</h1>
 	<p class="mt-4">{data.description}</p>
 	<section class="my-16">
-		{#key exercises }
-			<Stepper on:next={onNexthandler} on:complete={onCompleteHandler} >
+		{#key exercises}
+			<Stepper on:next={onNexthandler} on:complete={onCompleteHandler}>
 				{#each exercises as exercise}
 					<Step locked={lockedState}>
 						<svelte:fragment slot="header">{options[exercise.type].header}</svelte:fragment>
 						<svelte:component
-						  this={options[exercise.type].component}
+							this={options[exercise.type].component}
 							on:completed={unlockNext}
 							{...exercise}
-						 />
+						/>
 					</Step>
 				{/each}
 			</Stepper>
 		{/key}
-		<Toast/>
+		<Toast />
 	</section>
 </div>

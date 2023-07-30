@@ -1,20 +1,20 @@
 {
-  "id": 3,
-  "title": "Lesson 3",
-  "description": "Say what you don't do, use articles",
-  "content": [
-    {
-      "type": "fillBlank",
-      "question": ["Mo", "koné"],
-      "answer": "pa",
-      "options": ["pa", "bwar", "delo"],
-      "translation": "I don't know"
-    },
-    {
-      "type": "translate",
-      "question": "A boy",
-      "answer": "Ene garson",
-      "options": ["tifi", "Ene", "pa", "garson"]
-    }
-  ]
+	"id": 3,
+	"title": "Lesson 3",
+	"description": "Say what you don't do, use articles",
+	"content": [
+		{
+			"type": "fillBlank",
+			"question": ["Mo", "koné"],
+			"answer": "pa",
+			"options": ["pa", "bwar", "delo"],
+			"translation": "I don't know"
+		},
+		{
+			"type": "translate",
+			"question": "A boy",
+			"answer": "Ene garson",
+			"options": ["tifi", "Ene", "pa", "garson"]
+		}
+	]
 }

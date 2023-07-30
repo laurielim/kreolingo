@@ -1,20 +1,20 @@
 {
-  "id": 2,
-  "title": "Lesson 2",
-  "description": "Greet people, use affirmative phrases",
-  "content": [
-    {
-      "type": "fillBlank",
-      "question": ["Mo", "Jean"],
-      "answer": "apel",
-      "options": ["dipain", "bwar", "apel"],
-      "translation": "I'm called Jean"
-    },
-    {
-      "type": "multipleChoice",
-      "question": "How do you say 'rice'?",
-      "answer": "diri",
-      "options": ["tifi", "diri", "misier"]
-    }
-  ]
+	"id": 2,
+	"title": "Lesson 2",
+	"description": "Greet people, use affirmative phrases",
+	"content": [
+		{
+			"type": "fillBlank",
+			"question": ["Mo", "Jean"],
+			"answer": "apel",
+			"options": ["dipain", "bwar", "apel"],
+			"translation": "I'm called Jean"
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'rice'?",
+			"answer": "diri",
+			"options": ["tifi", "diri", "misier"]
+		}
+	]
 }

@@ -1,26 +1,26 @@
-<script lang='ts'>
+<script lang="ts">
 	// The ordering of these imports is critical to your app working properly
 	import '@skeletonlabs/skeleton/themes/theme-gold-nouveau.css';
 	// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
-	import { page } from "$app/stores";
+	import { page } from '$app/stores';
 	import { AppShell, AppBar, Drawer, drawerStore, Modal } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import HeaderLead from '$lib/components/HeaderLead.svelte';
 	import HeaderTrail from '$lib/components/HeaderTrail.svelte';
 
 	function drawerOpen(): void {
-			drawerStore.open({
-			width: 'w-[280px] md:w-[400px]',
+		drawerStore.open({
+			width: 'w-[280px] md:w-[400px]'
 		});
 	}
 
 	export let data;
 
 	let path: string;
-  $: path = $page.url.pathname;
+	$: path = $page.url.pathname;
 </script>
 
 <!-- Drawer Overlay -->
@@ -46,7 +46,7 @@
 	</svelte:fragment>
 	<!-- Left Sidebar Slot -->
 	<svelte:fragment slot="sidebarLeft">
-		<Navigation lessons={data.lessons} {path}/>
+		<Navigation lessons={data.lessons} {path} />
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
