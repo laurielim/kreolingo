@@ -22,7 +22,12 @@ export function getLessonBySlug(slug: string) {
   // Read file content
   const fileName = `${slug}.json`
   const fullPath = path.join(lessonsDirectory, fileName)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-
-  return JSON.parse(fileContents);
+  try {
+    if (fs.existsSync(fullPath)) {
+      const fileContents = fs.readFileSync(fullPath, 'utf8')
+      return JSON.parse(fileContents);
+    }
+  } catch(err) {
+    return null
+  }
 }

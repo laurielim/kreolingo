@@ -9,7 +9,7 @@ export async function load({ params }) {
   const lesson = getLessonBySlug(slug)
 
   if (!lesson) {
-    throw error(404, 'Post not found')
+    throw error(404, 'This lesson does not exist.')
   }
 
   return {
