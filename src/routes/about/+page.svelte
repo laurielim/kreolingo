@@ -13,7 +13,7 @@
 	</p>
 	<p class="mt-4 text-xl leading-relaxed">
 		Whether you are a fellow Mauritian or a curious learner from afar, I invite you to <a
-			href="https://github.com/laurielim/kreolingo/issues"
+			href="https://github.com/laurielim/kreolingo#contributing"
 			class="anchor">contribute</a
 		> – be it by adding lessons, improving the app, or just sharing your ideas.
 	</p>
