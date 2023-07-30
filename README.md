@@ -1,3 +1,13 @@
 # Kreolingo
 
-A Duolingo ripoff to help you learn Mauritian Creole. This is a project built with UI toolkit [Skeleton](https://www.skeleton.dev/) which uses [Svelte](https://svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+Inspired by [Duolingo](https://www.duolingo.com/), Kreolingo is a user-friendly web app designed to help people learn Mauritian Creole.
+
+## Technologies used
+- Skeleton UI
+- Svelte
+- Svelte Kit
+- Tailwind CSS
+
+## Contributing
+
+If you're interested in contributing, feel free to [create an issue](https://github.com/laurielim/kreolingo/issues/new) or reach out to me via Message me via [LinkedIn](https://www.linkedin.com/in/laurie-limsam/).
