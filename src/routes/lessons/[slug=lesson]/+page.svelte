@@ -27,8 +27,11 @@
 	};
 
 	const unlockNext = (event) => {
+		let toastBg = 'variant-filled';
+		if (event.detail.status === 'success') toastBg = 'variant-filled-success';
+		if (event.detail.status === 'error') toastBg = 'variant-filled-error';
 		const t = {
-			background: `variant-filled-${event.detail.status}`,
+			background: toastBg,
 			message: event.detail.message
 		};
 		toastStore.trigger(t);
