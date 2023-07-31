@@ -9,7 +9,12 @@ help: ## List all make commands
 
 PHONY += fresh
 fresh: ## Switch node version based on .nvmrc and run pnpm run dev
-	$(call step,Run nvm use abd pnpm run dev\n)
+	$(call step,Run nvm use and pnpm run dev\n)
 	. ${HOME}/.nvm/nvm.sh && nvm use && pnpm run dev
+
+PHONY += build
+build: ## Switch node version based on .nvmrc and run pnpm run build then pnpm run preview
+	$(call step,Run nvm use, pnpm run build and pnpm run preview\n)
+	. ${HOME}/.nvm/nvm.sh && nvm use && pnpm run build && pnpm run preview
 
 .PHONY: $(PHONY)
