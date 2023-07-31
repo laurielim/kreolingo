@@ -6,16 +6,18 @@ export async function load() {
 	 */
 	const lessons = [];
 	for (const path in data) {
-		data[path]().then((mod) => {
+		try {
+			const mod = await data[path]();
 			const slug = path.replace('/static', '').replace(/\.json$/, '');
-
 			lessons.push({
 				slug,
 				id: mod.id,
 				title: mod.title,
 				description: mod.description,
 			})
-		})
+		} catch (err) {
+			console.log(err)
+		}
 	}
 	return {
 		lessons: lessons.sort((a, b) => a.id - b.id)
