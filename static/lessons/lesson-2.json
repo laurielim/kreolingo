@@ -12,9 +12,58 @@
 		},
 		{
 			"type": "multipleChoice",
-			"question": "How do you say 'rice'?",
-			"answer": "diri",
-			"options": ["tifi", "diri", "misier"]
+			"question": "How do you say 'Good morning'?",
+			"answer": "bonzour",
+			"options": ["bonzour", "derien", "silteplé"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'Good evening'?",
+			"answer": "bonswar",
+			"options": ["misier", "dipain", "bonswar"]
+		},
+		{
+			"type": "translate",
+			"question": "Good morning Paul",
+			"answer": "Bonzour Paul",
+			"options": ["Silteplé", "Paul", "Bonzour", "bwar", "Li"]
+		},
+		{
+			"type": "translate",
+			"question": "Li apel Aurelie",
+			"answer": "She is called Aurelie",
+			"options": ["Aurelie", "is", "She", "called", "Jean"]
+		},
+		{
+			"type": "translate",
+			"question": "How are you?",
+			"answer": "Ki maniere",
+			"options": ["delo", "Ki", "misier", "maniere", "madam"]
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Ki", "?"],
+			"answer": "maniere",
+			"options": ["madam", "maniere", "apel"],
+			"translation": "How are you?"
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'Thank you'?",
+			"answer": "merci",
+			"options": ["merci", "derien", "silteplé"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'Please'?",
+			"answer": "silteplé",
+			"options": ["apel", "silteplé", "bonswar"]
+		},
+		{
+			"type": "translate",
+			"question": "Thank you - You're welcome",
+			"answer": "Merci Derien",
+			"options": ["Derien", "Ki", "Silteplé", "Madam", "Merci"]
 		}
 	]
 }
