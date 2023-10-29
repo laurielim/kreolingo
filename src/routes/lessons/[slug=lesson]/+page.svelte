@@ -67,7 +67,7 @@
 	<p class="mt-4">{data.description}</p>
 	<section class="my-16">
 		{#key exercises}
-			<Stepper on:next={onNexthandler} on:complete={onCompleteHandler}>
+			<Stepper regionHeader={'flex-wrap gap-x-3 gap-y-5'} on:next={onNexthandler} on:complete={onCompleteHandler}>
 				{#each exercises as exercise}
 					<Step locked={lockedState}>
 						<svelte:fragment slot="header">{options[exercise.type].header}</svelte:fragment>

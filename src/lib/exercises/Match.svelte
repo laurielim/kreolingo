@@ -15,7 +15,7 @@
 			pairedKeys = [...pairedKeys, selectedKey];
 			pairedValues = [...pairedValues, selectedValue];
 		} else {
-			const label = document.querySelector(`.value-${selectedValue}`);
+			const label = document.querySelector(`.value-${selectedValue.replace(" ", "-")}`);
 			const errorClass = ["variant-soft-warning", "transition-color", "ease-in-out", "wrong-answer"]
 			label?.classList.add(...errorClass);
 			setTimeout(()=>label?.classList.remove(...errorClass), 400)
@@ -64,7 +64,7 @@
 	<div class="keys flex flex-col gap-4">
 		{#each values as value}
 			<label
-				class="chip text-base font-semibold value-{value} {selectedValue === value
+				class="chip text-base font-semibold value-{value.replace(" ", "-")} {selectedValue === value
 					? 'variant-filled-surface'
 					: 'variant-filled'} {pairedValues.includes(value) ? 'variant-soft-success' : ''}"
 			>

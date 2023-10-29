@@ -11,6 +11,29 @@
 			"translation": "I am a woman"
 		},
 		{
+			"type": "fillBlank",
+			"question": ["Li p", "dilé"],
+			"answer": "bwar",
+			"options": ["manz", "dipain", "bwar"],
+			"translation": "He is drinking milk"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Zot p", "diri"],
+			"answer": "manz",
+			"options": ["misier", "bwar", "manz"],
+			"translation": "They are eating rice"
+		},
+		{
+			"type": "match",
+			"options": {
+				"water": "delo",
+				"milk": "dilé",
+				"rice": "diri",
+				"boy": "garson"
+			}
+		},
+		{
 			"type": "match",
 			"options": {
 				"man": "misier",
@@ -18,6 +41,18 @@
 				"bread": "dipain",
 				"girl": "tifi"
 			}
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'bread'?",
+			"answer": "dipain",
+			"options": ["tifi", "diri", "dipain"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'water'?",
+			"answer": "delo",
+			"options": ["delo", "diri", "madam"]
 		},
 		{
 			"type": "multipleChoice",
@@ -54,41 +89,6 @@
 			"question": "To ene garson",
 			"answer": "You are a boy",
 			"options": ["boy", "You", "a", "are", "girl"]
-		},
-		{
-			"type": "fillBlank",
-			"question": ["Li p", "dilé"],
-			"answer": "bwar",
-			"options": ["manz", "dipain", "bwar"],
-			"translation": "He is drinking milk"
-		},
-		{
-			"type": "fillBlank",
-			"question": ["Zot p", "diri"],
-			"answer": "manz",
-			"options": ["misier", "bwar", "manz"],
-			"translation": "They are eating rice"
-		},
-		{
-			"type": "match",
-			"options": {
-				"water": "delo",
-				"milk": "dilé",
-				"rice": "diri",
-				"bread": "dipain"
-			}
-		},
-		{
-			"type": "multipleChoice",
-			"question": "How do you say 'bread'?",
-			"answer": "dipain",
-			"options": ["tifi", "diri", "dipain"]
-		},
-		{
-			"type": "multipleChoice",
-			"question": "How do you say 'water'?",
-			"answer": "delo",
-			"options": ["delo", "diri", "madam"]
 		},
 		{
 			"type": "translate",
