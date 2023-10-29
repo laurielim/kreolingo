@@ -71,7 +71,7 @@
 			"type": "translate",
 			"question": "To konten manz diri",
 			"answer": "You like to eat rice",
-			"options": ["rice", "like", "to", "you", "not", "eat"]
+			"options": ["rice", "like", "to", "You", "not", "eat"]
 		},
 		{
 			"type": "translate",
@@ -89,7 +89,7 @@
 			"type": "translate",
 			"question": "We have a cat",
 			"answer": "Nou ena ene sat",
-			"options": ["coson", "sat", "nou", "mo", "ena", "ene"]
+			"options": ["coson", "sat", "Nou", "mo", "ena", "ene"]
 		},
 		{
 			"type": "translate",
@@ -101,7 +101,7 @@
 			"type": "translate",
 			"question": "He does not like to drink water",
 			"answer": "Li pa konten bwar delo",
-			"options": ["Li", "lisien", "nou", "mo", "ena", "ene"]
+			"options": ["Li", "pa", "konten", "bwar", "delo", "To"]
 		}
 	]
 }
