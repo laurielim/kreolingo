@@ -11,10 +11,101 @@
 			"translation": "I don't know"
 		},
 		{
+			"type": "fillBlank",
+			"question": ["Li pa", "anglai"],
+			"answer": "koz",
+			"options": ["apel", "koz", "bwar"],
+			"translation": "She does not speak english"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Manz", "dipain"],
+			"answer": "ene",
+			"options": ["ene", "delo", "la"],
+			"translation": "Eat a bread"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Madam la pa", "diri"],
+			"answer": "manz",
+			"options": ["apel", "tifi", "manz"],
+			"translation": "The woman does not eat rice"
+		},
+		{
+			"type": "match",
+			"options": {
+				"speak": "koz",
+				"know": "koné",
+				"drink": "bwar",
+				"eat": "manz",
+				"call": "apel"
+			}
+		},
+		{
+			"type": "match",
+			"options": {
+				"the man": "misier la",
+				"a girl": "ene tifi",
+				"a drink": "ene bwar",
+				"the food": "manzé la"
+			}
+		},
+		{
+			"type": "match",
+			"options": {
+				"the night": "la nuit",
+				"the day": "la zourné",
+				"the book": "liv la",
+				"the woman": "madam la"
+			}
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'mo pa koné'?",
+			"answer": "I don't know",
+			"options": ["they don't know", "you don't drink", "I don't know"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'the woman'?",
+			"answer": "madam la",
+			"options": ["madam la", "ene madam", "la madam"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'ene dipain'?",
+			"answer": "a bread",
+			"options": ["a drink", "a bread", "the drink"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'the night'?",
+			"answer": "la nuit",
+			"options": ["la nuit", "la zourné", "ene nuit"]
+		},
+		{
 			"type": "translate",
 			"question": "A boy",
 			"answer": "Ene garson",
 			"options": ["tifi", "Ene", "pa", "garson"]
+		},
+		{
+			"type": "translate",
+			"question": "Yoven pa bwar dilé",
+			"answer": "Yoven does not drink milk",
+			"options": ["does", "bread", "milk", "Yoven", "drink", "not", "eat"]
+		},
+		{
+			"type": "translate",
+			"question": "Jean does not speak",
+			"answer": "Jean pa kozé",
+			"options": ["kozé", "pa", "Jean", "bwar", "koné"]
+		},
+		{
+			"type": "translate",
+			"question": "Tifi la manz diri",
+			"answer": "The girl eats rice",
+			"options": ["girl", "boy", "eats", "The", "rice"]
 		}
 	]
 }

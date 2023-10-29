@@ -11,10 +11,97 @@
 			"translation": "I drink water"
 		},
 		{
+			"type": "fillBlank",
+			"question": ["Manzé", "pu mwa"],
+			"answer": "la",
+			"options": ["la", "bwar", "ene"],
+			"translation": "The food is mine"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Li manz", "ek poule"],
+			"answer": "diri",
+			"options": ["diri", "lisien", "dilé"],
+			"translation": "She eats chicken and rice"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Zot ena", "sat"],
+			"answer": "ene",
+			"options": ["nuit", "delo", "ene"],
+			"translation": "They have a cat"
+		},
+		{
+			"type": "match",
+			"options": {
+				"a dog": "ene lisien",
+				"the cat": "sat la",
+				"a chicken": "ene poule",
+				"the pig": "coson la"
+			}
+		},
+		{
+			"type": "match",
+			"options": {
+				"food": "manzé",
+				"drink": "bwar",
+				"for": "pu",
+				"with": "ek"
+			}
+		},
+		{
 			"type": "multipleChoice",
 			"question": "How do you say 'rice'?",
 			"answer": "diri",
 			"options": ["tifi", "diri", "misier"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'a pig'?",
+			"answer": "ene coson",
+			"options": ["ene coson", "ene lisien", "ene poule"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'like'?",
+			"answer": "konten",
+			"options": ["lisien", "sat", "konten"]
+		},
+		{
+			"type": "translate",
+			"question": "To konten manz diri",
+			"answer": "You like to eat rice",
+			"options": ["rice", "like", "to", "you", "not", "eat"]
+		},
+		{
+			"type": "translate",
+			"question": "Lisien la manz poule",
+			"answer": "The dog eats chicken",
+			"options": ["eats", "bread", "dog", "The", "chicken", "likes"]
+		},
+		{
+			"type": "translate",
+			"question": "Delo pu twa",
+			"answer": "Water for you",
+			"options": ["Water", "for", "with", "them", "you"]
+		},
+		{
+			"type": "translate",
+			"question": "We have a cat",
+			"answer": "Nou ena ene sat",
+			"options": ["coson", "sat", "nou", "mo", "ena", "ene"]
+		},
+		{
+			"type": "translate",
+			"question": "The bread is for me and you",
+			"answer": "Dipain la pu mwa ek twa",
+			"options": ["Dipain", "pu", "la", "twa", "mwa", "ek"]
+		},
+		{
+			"type": "translate",
+			"question": "He does not like to drink water",
+			"answer": "Li pa konten bwar delo",
+			"options": ["Li", "lisien", "nou", "mo", "ena", "ene"]
 		}
 	]
 }

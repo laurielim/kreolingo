@@ -11,10 +11,97 @@
 			"translation": "I'm called Jean"
 		},
 		{
+			"type": "fillBlank",
+			"question": ["Mo", "merci"],
+			"answer": "apel",
+			"options": ["bien", "bwar", "apel"],
+			"translation": "I'm called Jean"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Alo, ki", "?"],
+			"answer": "maniere",
+			"options": ["dipain", "maniere", "apel"],
+			"translation": "Hello, how are you?"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Ki", "?"],
+			"answer": "maniere",
+			"options": ["madam", "maniere", "apel"],
+			"translation": "How are you?"
+		},
+		{
+			"type": "match",
+			"options": {
+				"thank you": "merci",
+				"you're welcome": "derien",
+				"good morning": "bonzour",
+				"good evening": "bonswar"
+			}
+		},
+		{
+			"type": "match",
+			"options": {
+				"how are you": "ki maniere",
+				"hello": "alo",
+				"please": "silteplé",
+				"i'm fine": "mo bien"
+			}
+		},
+		{
 			"type": "multipleChoice",
-			"question": "How do you say 'rice'?",
-			"answer": "diri",
-			"options": ["tifi", "diri", "misier"]
+			"question": "How do you say 'Good morning'?",
+			"answer": "bonzour",
+			"options": ["bonzour", "derien", "silteplé"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'Good evening'?",
+			"answer": "bonswar",
+			"options": ["misier", "dipain", "bonswar"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'Thank you'?",
+			"answer": "merci",
+			"options": ["merci", "derien", "silteplé"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'Please'?",
+			"answer": "silteplé",
+			"options": ["apel", "silteplé", "bonswar"]
+		},
+		{
+			"type": "translate",
+			"question": "Good morning Paul",
+			"answer": "Bonzour Paul",
+			"options": ["Silteplé", "Paul", "Bonzour", "bwar", "Li"]
+		},
+		{
+			"type": "translate",
+			"question": "Li apel Aurelie",
+			"answer": "She is called Aurelie",
+			"options": ["Aurelie", "is", "She", "called", "Jean"]
+		},
+		{
+			"type": "translate",
+			"question": "How are you?",
+			"answer": "Ki maniere",
+			"options": ["delo", "Ki", "misier", "maniere", "madam"]
+		},
+		{
+			"type": "translate",
+			"question": "I'm fine, thank you",
+			"answer": "Mo bien merci",
+			"options": ["Mo", "merci", "To", "bwar", "bien"]
+		},
+		{
+			"type": "translate",
+			"question": "Thank you - You're welcome",
+			"answer": "Merci Derien",
+			"options": ["Derien", "Ki", "Silteplé", "Madam", "Merci"]
 		}
 	]
 }

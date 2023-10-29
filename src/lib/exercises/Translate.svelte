@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
+	import { randomize } from '$lib/utils/helpers';
 	const dispatch = createEventDispatcher();
 
 	let selected: string[] = [];
@@ -31,6 +32,8 @@
 	export let question: string;
 	export let answer: string;
 	export let options: string[];
+	const randomizedOptions = randomize(options);
+
 </script>
 
 <h2 class="h2">{question}</h2>
@@ -38,7 +41,7 @@
 <div class="min-h-[152px] answer-container">
 	<div class="inline-flex flex-wrap gap-x-2 gap-y-4">
 		{#each selected as word}
-			<span class="chip text-base variant-filled">
+			<span class="chip cursor-default text-base variant-filled">
 				{word}
 			</span>
 		{/each}
@@ -46,7 +49,7 @@
 </div>
 <form on:submit|preventDefault={handleSubmit}>
 	<fieldset class="flex gap-4 mt-8">
-		{#each options as option}
+		{#each randomizedOptions as option}
 			<label
 				class="chip text-base font-semibold {selected.includes(option)
 					? 'variant-ghost opacity-50'

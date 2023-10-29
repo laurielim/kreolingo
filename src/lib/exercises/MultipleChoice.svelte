@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
+	import { randomize } from '$lib/utils/helpers'
 	const dispatch = createEventDispatcher();
 
 	let selected: string = '';
@@ -22,12 +23,13 @@
 	export let question: string;
 	export let answer: string;
 	export let options: string[];
+	const randomizedOptions = randomize(options);
 </script>
 
 <h2 class="h2">{question}</h2>
 <form on:submit|preventDefault={handleSubmit}>
 	<fieldset class="flex flex-col gap-4 mt-8">
-		{#each options as option}
+		{#each randomizedOptions as option}
 			<label
 				class="chip text-base font-semibold {selected === option
 					? 'variant-filled-surface'
