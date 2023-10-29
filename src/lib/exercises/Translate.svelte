@@ -5,6 +5,11 @@
 
 	let selected: string[] = [];
 
+	const removeSelected = (event) => {
+		const value = event.target.innerHTML;
+		selected = selected.filter((word) => word !== value.replace(" ", ""));
+	}
+
 	const handleCheck = (event) => {
 		const value = event.target.value;
 		if (event.target.checked) {
@@ -41,9 +46,12 @@
 <div class="min-h-[152px] answer-container">
 	<div class="inline-flex flex-wrap gap-x-2 gap-y-4">
 		{#each selected as word}
-			<span class="chip cursor-default text-base variant-filled">
+			<button
+			  class="chip text-base variant-filled"
+				on:click={removeSelected}
+			>
 				{word}
-			</span>
+			</button>
 		{/each}
 	</div>
 </div>
