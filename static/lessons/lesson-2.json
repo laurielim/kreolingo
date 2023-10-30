@@ -13,9 +13,9 @@
 		{
 			"type": "fillBlank",
 			"question": ["Mo", "merci"],
-			"answer": "apel",
+			"answer": "bien",
 			"options": ["bien", "bwar", "apel"],
-			"translation": "I'm called Jean"
+			"translation": "I'm fine, thank you"
 		},
 		{
 			"type": "fillBlank",

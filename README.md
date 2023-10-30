@@ -29,4 +29,4 @@ pnpm run dev
 ```
 
 ## Deployment
-This project is hosted on Netlify and it's best to use the UI
+This project is hosted on Netlify and is deployed when a PR is merged into the main branch.
