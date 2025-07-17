@@ -10,7 +10,7 @@ Inspired by [Duolingo](https://www.duolingo.com/), Kreolingo is a user-friendly 
 - Tailwind CSS
 
 ## Contributing
-If you're interested in contributing, feel free to [create an issue](https://github.com/laurielim/kreolingo/issues/new) or reach out to me via Message me via [LinkedIn](https://www.linkedin.com/in/laurie-limsam/).
+If you're interested in contributing, feel free to [create an issue](https://github.com/laurielim/kreolingo/issues/new) or reach out to me via [LinkedIn](https://www.linkedin.com/in/laurie-limsam/).
 
 ## Development
 
