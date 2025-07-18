@@ -103,5 +103,19 @@
 			"answer": "Merci Derien",
 			"options": ["Derien", "Ki", "Silteplé", "Madam", "Merci"]
 		}
-	]
+	],
+	"vocabulary": {
+		"hello": "alo",
+		"how are you": "ki maniere",
+		"I'm fine": "mo bien",
+		"thank you": "merci",
+		"you're welcome": "derien",
+		"good morning": "bonzour",
+		"good evening": "bonswar",
+		"please": "silteplé",
+		"called": "apel",
+		"how": "maniere",
+		"I": "mo",
+		"he/she": "li"
+	}
 }

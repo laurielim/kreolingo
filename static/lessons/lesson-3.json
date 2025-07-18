@@ -107,5 +107,25 @@
 			"answer": "The girl eats rice",
 			"options": ["girl", "boy", "eats", "The", "rice"]
 		}
-	]
+	],
+	"vocabulary": {
+		"not": "pa",
+		"speak": "koz",
+		"know": "koné",
+		"eat": "manz",
+		"drink": "bwar",
+		"call": "apel",
+		"a": "ene",
+		"the": "la/le",
+		"man": "misier",
+		"woman": "madam",
+		"girl": "tifi",
+		"boy": "garson",
+		"bread": "dipain",
+		"food": "manzé",
+		"milk": "dilé",
+		"day": "la zourné",
+		"night": "la nuit",
+		"book": "liv"
+	}
 }

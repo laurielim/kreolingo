@@ -102,5 +102,21 @@
 			"answer": "Li p manz dipain",
 			"options": ["p", "bwar", "Li", "manz", "dipain"]
 		}
-	]
+	],
+	"vocabulary": {
+		"I": "mo",
+		"you": "to",
+		"he/she": "li",
+		"woman": "madam",
+		"man": "misier",
+		"girl": "tifi",
+		"boy": "garson",
+		"bread": "dipain",
+		"rice": "diri",
+		"milk": "dilé",
+		"water": "delo",
+		"eat": "manz",
+		"drink": "bwar",
+		"a": "ene"
+	}
 }

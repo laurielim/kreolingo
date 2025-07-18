@@ -103,5 +103,24 @@
 			"answer": "Li pa konten bwar delo",
 			"options": ["Li", "pa", "konten", "bwar", "delo", "To"]
 		}
-	]
+	],
+	"vocabulary": {
+		"food": "manzé",
+		"drink": "bwar",
+		"rice": "diri",
+		"bread": "dipain",
+		"chicken": "poule",
+		"water": "delo",
+		"cat": "sat",
+		"dog": "lisien",
+		"pig": "coson",
+		"for": "pu",
+		"with": "ek",
+		"like": "konten",
+		"not": "pa",
+		"have": "ena",
+		"we": "nou",
+		"you": "to",
+		"me": "mwa"
+	}
 }
