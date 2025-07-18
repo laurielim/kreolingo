@@ -1,0 +1,121 @@
+{
+	"id": 7,
+	"title": "Lesson 7",
+	"description": "Talk about time, days, and when things happen",
+	"content": [
+		{
+			"type": "fillBlank",
+			"question": ["", "dimans."],
+			"answer": "Zordi",
+			"options": ["Zordi", "Toultan", "Hier"],
+			"translation": "Today is Sunday."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Mo pu vin", "demain."],
+			"answer": "boner",
+			"options": ["aster", "boner", "hier"],
+			"translation": "I will come early tomorrow."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Li", "en retar."],
+			"answer": "toultan",
+			"options": ["toultan", "boner", "hier"],
+			"translation": "He is always late."
+		},
+		{
+			"type": "match",
+			"options": {
+				"today": "zordi",
+				"tomorrow": "demain",
+				"yesterday": "hier",
+				"now": "aster"
+			}
+		},
+		{
+			"type": "match",
+			"options": {
+				"Sunday": "dimans",
+				"early": "boner",
+				"late": "retar",
+				"hour": "ler"
+			}
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'yesterday'?",
+			"answer": "hier",
+			"options": ["hier", "demain", "zordi"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'now'?",
+			"answer": "aster",
+			"options": ["aster", "hier", "dimans"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'late'?",
+			"answer": "retar",
+			"options": ["boner", "ler", "retar"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'Sunday'?",
+			"answer": "dimans",
+			"options": ["dimans", "demain", "zordi"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'early'?",
+			"answer": "boner",
+			"options": ["retar", "boner", "hier"]
+		},
+		{
+			"type": "translate",
+			"question": "I am late",
+			"answer": "Mo en retar",
+			"options": ["retar", "en", "Mo", "li", "zordi"]
+		},
+		{
+			"type": "translate",
+			"question": "Li vini boner",
+			"answer": "He comes early",
+			"options": ["early", "comes", "He", "yesterday", "now"]
+		},
+		{
+			"type": "translate",
+			"question": "Zordi mo al travay",
+			"answer": "Today I go to work",
+			"options": ["go", "Today", "I", "work", "late"]
+		},
+		{
+			"type": "translate",
+			"question": "Mo pu al legliz dimans",
+			"answer": "I will go to church on Sunday",
+			"options": ["go", "Sunday", "will", "I", "church"]
+		},
+		{
+			"type": "translate",
+			"question": "Hier li ti en retar",
+			"answer": "Yesterday he was late",
+			"options": ["late", "was", "Yesterday", "he", "early"]
+		}
+	],
+	"vocabulary": {
+		"today": "zordi",
+		"tomorrow": "demain",
+		"yesterday": "hier",
+		"now": "aster",
+		"Sunday": "dimans",
+		"early": "boner",
+		"late": "retar",
+		"time/hour": "ler",
+		"always": "toultan",
+		"will": "pu",
+		"go": "al",
+		"come": "vini",
+		"church": "legliz"
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"id": 5,
+	"title": "Lesson 5",
+	"description": "Everyday objects and how to say what you have",
+	"content": [
+		{
+			"type": "fillBlank",
+			"question": ["Mo ena ene", "ek trwa sez."],
+			"answer": "latab",
+			"options": ["latab", "manz", "liv"],
+			"translation": "I have a table and three chairs."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Li", "ene portab lor latab."],
+			"answer": "ena",
+			"options": ["manz", "ena", "liv"],
+			"translation": "He has a phone on the table."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Zot", "liv dan lakaz."],
+			"answer": "ena",
+			"options": ["liv", "ena", "sez"],
+			"translation": "They have books in the house."
+		},
+		{
+			"type": "match",
+			"options": {
+				"house": "lakaz",
+				"table": "latab",
+				"chair": "sez",
+				"phone": "portab"
+			}
+		},
+		{
+			"type": "match",
+			"options": {
+				"book": "liv",
+				"clothes": "linz",
+				"watch": "mont",
+				"glasses": "linet"
+			}
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'table'?",
+			"answer": "latab",
+			"options": ["sez", "latab", "lakaz"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'glasses'?",
+			"answer": "linet",
+			"options": ["liv", "linet", "linz"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'chair'?",
+			"answer": "sez",
+			"options": ["tab", "sez", "mont"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'I have'?",
+			"answer": "Mo ena",
+			"options": ["Mo ena", "Mo garson", "Mo linet"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'book'?",
+			"answer": "liv",
+			"options": ["liv", "dipain", "linz"]
+		},
+		{
+			"type": "translate",
+			"question": "I have a phone",
+			"answer": "Mo ena ene portab",
+			"options": ["Mo", "ene", "ena", "portab", "liv"]
+		},
+		{
+			"type": "translate",
+			"question": "He has a chair",
+			"answer": "Li ena ene sez",
+			"options": ["Li", "sez", "ena", "ene", "latab"]
+		},
+		{
+			"type": "translate",
+			"question": "Mo ena ene liv",
+			"answer": "I have a book",
+			"options": ["book", "a", "I", "have", "phone"]
+		},
+		{
+			"type": "translate",
+			"question": "Zot ena ene lakaz",
+			"answer": "They have a house",
+			"options": ["They", "house", "have", "a", "book"]
+		},
+		{
+			"type": "translate",
+			"question": "He has a watch",
+			"answer": "Li ena ene mont",
+			"options": ["mont", "Li", "ene", "ena", "linet"]
+		}
+	],
+	"vocabulary": {
+		"house": "lakaz",
+		"table": "latab",
+		"chair": "sez",
+		"phone": "portab",
+		"book": "liv",
+		"clothes": "linz",
+		"watch": "mont",
+		"glasses": "linet",
+		"have": "ena"
+	}
+}
