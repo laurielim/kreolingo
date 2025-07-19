@@ -1,0 +1,86 @@
+{
+  "id": 12,
+  "title": "Lesson 12",
+  "description": "Describe past actions",
+  "content": [
+    {
+      "type": "fillBlank",
+      "question": ["Li", "al lekol hier."],
+      "answer": "ti",
+      "options": ["ti", "pe", "pa"],
+      "translation": "He went to school yesterday."
+    },
+    {
+      "type": "fillBlank",
+      "question": ["Mo", "manzé dimans pasé."],
+      "answer": "ti",
+      "options": ["ti", "pe", "ene"],
+      "translation": "I ate last Sunday."
+    },
+    {
+      "type": "fillBlank",
+      "question": ["Zot", "lakaz hier soir."],
+      "answer": "ti",
+      "options": ["ti", "pa", "ene"],
+      "translation": "They were home last night."
+    },
+    {
+      "type": "match",
+      "options": {
+        "was": "ti",
+        "yesterday": "hier",
+        "last": "pasé",
+        "Sunday": "dimans"
+      }
+    },
+    {
+      "type": "match",
+      "options": {
+        "ate": "manzé",
+        "went": "al",
+        "was": "ti",
+        "evening": "soir"
+      }
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What marks past tense?",
+      "answer": "ti",
+      "options": ["ti", "pe", "ene"]
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'yesterday'?",
+      "answer": "hier",
+      "options": ["hier", "zordi", "dimans"]
+    },
+    {
+      "type": "translate",
+      "question": "We were at church last Sunday",
+      "answer": "Nou ti legliz dimans pasé",
+      "options": ["Nou", "ti", "dimans", "legliz", "pasé"]
+    },
+    {
+      "type": "translate",
+      "question": "Li ti manzé hier soir",
+      "answer": "He ate yesterday evening",
+      "options": ["He", "ate", "evening", "yesterday", "is"]
+    },
+    {
+      "type": "translate",
+      "question": "Zot ti al bazar",
+      "answer": "They went to the market",
+      "options": ["They", "went", "market", "to", "yesterday"]
+    }
+  ],
+  "vocabulary": {
+    "was": "ti",
+    "ate": "manzé",
+    "went": "al",
+    "yesterday": "hier",
+    "evening": "soir",
+    "last": "pasé",
+    "Sunday": "dimans",
+    "market": "bazar"
+  }
+}

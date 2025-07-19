@@ -12,6 +12,13 @@
 		},
 		{
 			"type": "fillBlank",
+			"question": ["Tou les", "li al boner."],
+			"answer": "zour",
+			"options": ["zour", "zordi", "retar"],
+			"translation": "Everyday she goes early."
+		},
+		{
+			"type": "fillBlank",
 			"question": ["Mo pu vin", "demain."],
 			"answer": "boner",
 			"options": ["aster", "boner", "hier"],
@@ -116,6 +123,7 @@
 		"will": "pu",
 		"go": "al",
 		"come": "vini",
-		"church": "legliz"
+		"church": "legliz",
+		"everyday": "tou les zour"
 	}
 }

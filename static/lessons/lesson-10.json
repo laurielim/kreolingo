@@ -1,0 +1,94 @@
+{
+  "id": 10,
+  "title": "Lesson 10",
+  "description": "Talk about places and directions",
+  "content": [
+    {
+      "type": "fillBlank",
+      "question": ["Kot lakaz la", "?"],
+      "answer": "été",
+      "options": ["été", "kot", "manzé"],
+      "translation": "Where is the house?"
+    },
+    {
+      "type": "fillBlank",
+      "question": ["Mo", "lekol."],
+      "answer": "dan",
+      "options": ["dan", "lor", "delo"],
+      "translation": "I am at school."
+    },
+    {
+      "type": "fillBlank",
+      "question": ["Li al", "tou les Dimans."],
+      "answer": "legliz",
+      "options": ["legliz", "lakaz", "lontan"],
+      "translation": "He goes to church every Sunday."
+    },
+    {
+      "type": "match",
+      "options": {
+        "school": "lekol",
+        "church": "legliz",
+        "hospital": "lopital",
+        "house": "lakaz"
+      }
+    },
+    {
+      "type": "match",
+      "options": {
+        "where": "kot",
+        "on": "lor",
+        "in": "dan",
+        "there": "laba"
+      }
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'where'?",
+      "answer": "kot",
+      "options": ["kot", "dan", "lor"]
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'hospital'?",
+      "answer": "lopital",
+      "options": ["legliz", "lopital", "lekol"]
+    },
+    {
+      "type": "translate",
+      "question": "He is at school",
+      "answer": "Li dan lekol",
+      "options": ["dan", "Li", "lekol", "été", "lor"]
+    },
+    {
+      "type": "translate",
+      "question": "Kot li été?",
+      "answer": "Where is he",
+      "options": ["Where", "eat", "is", "he", "drink"]
+    },
+    {
+      "type": "translate",
+      "question": "Nou lakaz lor montagn",
+      "answer": "Our house is on the mountain",
+      "options": ["house", "on", "Our", "is", "mountain"]
+    },
+    {
+      "type": "translate",
+      "question": "So lekol laba",
+      "answer": "His school is there",
+      "options": ["school", "is", "His", "to", "there"]
+    }
+  ],
+  "vocabulary": {
+    "school": "lekol",
+    "church": "legliz",
+    "hospital": "lopital",
+    "house": "lakaz",
+    "where": "kot",
+    "on": "lor",
+    "in": "dan",
+    "there": "laba",
+    "is/are": "été",
+    "mountain": "montagn"
+  }
+}

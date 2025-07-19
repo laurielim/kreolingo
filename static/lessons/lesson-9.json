@@ -1,0 +1,86 @@
+{
+  "id": 9,
+  "title": "Lesson 9",
+  "description": "Express abilities and make requests",
+  "content": [
+    {
+      "type": "fillBlank",
+      "question": ["Mo", "koz fransé."],
+      "answer": "kapav",
+      "options": ["kapav", "bwar", "kontan"],
+      "translation": "I can speak French."
+    },
+    {
+      "type": "fillBlank",
+      "question": ["To", "aid mwa silteplé?"],
+      "answer": "kapav",
+      "options": ["kapav", "konten", "ene"],
+      "translation": "Can you help me please?"
+    },
+    {
+      "type": "fillBlank",
+      "question": ["Zot", "al deor apre lekol."],
+      "answer": "kapav",
+      "options": ["kapav", "ena", "mo"],
+      "translation": "They can go outside after school."
+    },
+    {
+      "type": "match",
+      "options": {
+        "can": "kapav",
+        "want": "envi",
+        "need": "bizin",
+        "help": "aid"
+      }
+    },
+    {
+      "type": "match",
+      "options": {
+        "please": "silteplé",
+        "I can": "mo kapav",
+        "you want": "to envi",
+        "we need": "nou bizin"
+      }
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'can'?",
+      "answer": "kapav",
+      "options": ["vle", "kapav", "bizin"]
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'need'?",
+      "answer": "bizin",
+      "options": ["konten", "bizin", "ed"]
+    },
+    {
+      "type": "translate",
+      "question": "I need water",
+      "answer": "Mo bizin delo",
+      "options": ["Mo", "delo", "bwar", "bizin", "ene"]
+    },
+    {
+      "type": "translate",
+      "question": "Can she help us?",
+      "answer": "Li kapav aid nou?",
+      "options": ["kapav", "nou", "Li", "aid", "pa"]
+    },
+    {
+      "type": "translate",
+      "question": "Mo kapav aid twa",
+      "answer": "I can help you",
+      "options": ["help", "you", "I", "can", "him"]
+    }
+  ],
+  "vocabulary": {
+    "can": "kapav",
+    "want": "vle",
+    "need": "bizin",
+    "help": "aid",
+    "please": "silteplé",
+    "us": "nou",
+    "you": "to",
+    "I": "mo"
+  }
+}
