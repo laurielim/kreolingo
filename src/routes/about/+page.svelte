@@ -18,5 +18,5 @@
 		> – be it by adding lessons, improving the app, or just sharing your ideas.
 	</p>
 	<h3 class="h3 mt-8">About the language used</h3>
-	<p class="mt-4 text-xl leading-relaxed">This app uses Mauritian Creole as I use it. While there are now standardized spellings (like in official dictionaries or classes), I've written things the way they feel most natural to me. Kreol is a living language — and this is one way of speaking it.</p>
+	<p class="mt-4 text-xl leading-relaxed">This app uses Mauritian Creole as I use it. While there are now standardized spellings, I've written things the way they feel most natural to me. Kreol is a living language and this is one way of speaking it.</p>
 </div>
