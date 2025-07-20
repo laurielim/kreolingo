@@ -49,9 +49,11 @@
 			title: 'Congratulations!',
 			body: `You have completed ${data.title.toLowerCase()}. Click on continue to go to the next lesson.`,
 			image: 'https://i.imgur.com/WOgTG96.gif',
-			response: () => {
-				container.scrollIntoView();
-				goto(`/lessons/lesson-${data.id + 1}`);
+			response: (res) => {
+				if (res) {
+					container.scrollIntoView();
+					goto(`/lessons/lesson-${data.id + 1}`);
+				}
 			}
 		};
 		modalStore.trigger(modal);
