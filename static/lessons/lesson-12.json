@@ -7,38 +7,45 @@
       "type": "fillBlank",
       "question": ["Li", "al lekol hier."],
       "answer": "ti",
-      "options": ["ti", "pe", "pa"],
+      "options": ["pe", "ti", "pa"],
       "translation": "He went to school yesterday."
     },
     {
       "type": "fillBlank",
-      "question": ["Mo", "manzé dimans pasé."],
-      "answer": "ti",
-      "options": ["ti", "pe", "ene"],
-      "translation": "I ate last Sunday."
+      "question": ["Mo ti", "dimans pasé."],
+      "answer": "laba",
+      "options": ["ene", "pe", "laba"],
+      "translation": "I was there last Sunday."
     },
     {
       "type": "fillBlank",
       "question": ["Zot", "lakaz hier soir."],
       "answer": "ti",
-      "options": ["ti", "pa", "ene"],
+      "options": ["pa", "ti", "ene"],
       "translation": "They were home last night."
+    },
+    {
+      "type": "fillBlank",
+      "question": ["Portab la ti", "latab."],
+      "answer": "lor",
+      "options": ["lor", "dan", "ene"],
+      "translation": "The phone was on the table."
     },
     {
       "type": "match",
       "options": {
-        "was": "ti",
-        "yesterday": "hier",
-        "last": "pasé",
-        "Sunday": "dimans"
+        "ate": "ti manzé",
+        "drank": "ti bwar",
+        "came": "ti vini",
+        "went": "ti al"
       }
     },
     {
       "type": "match",
       "options": {
-        "ate": "manzé",
-        "went": "al",
-        "was": "ti",
+        "yesterday": "hier",
+        "today": "zordi",
+        "morning": "gramatin",
         "evening": "soir"
       }
     },
@@ -52,7 +59,19 @@
       "type": "multipleChoice",
       "question": "How do you say 'yesterday'?",
       "answer": "hier",
-      "options": ["hier", "zordi", "dimans"]
+      "options": ["dimans", "zordi", "hier"]
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'last evening'?",
+      "answer": "hier soir",
+      "options": ["hier soir", "dimans pasé", "soir pasé"]
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'morning'?",
+      "answer": "gramatin",
+      "options": ["zordi", "gramatin", "soir"]
     },
     {
       "type": "translate",
@@ -62,22 +81,38 @@
     },
     {
       "type": "translate",
-      "question": "Li ti manzé hier soir",
-      "answer": "He ate yesterday evening",
-      "options": ["He", "ate", "evening", "yesterday", "is"]
+      "question": "I was at the hospital yesteday",
+      "answer": "Mo ti dan lopital hier",
+      "options": ["Mo", "ti", "dan", "lopital", "hier"]
+    },
+    {
+      "type": "translate",
+      "question": "Mo ti bwar dilé zordi gramatin",
+      "answer": "I drank milk this morning",
+      "options": ["I", "drank", "milk", "this", "morning"]
+    },
+    {
+      "type": "translate",
+      "question": "Li ti vini hier soir",
+      "answer": "He came last evening",
+      "options": ["He", "came", "evening", "last", "is", "there"]
     },
     {
       "type": "translate",
       "question": "Zot ti al bazar",
       "answer": "They went to the market",
-      "options": ["They", "went", "market", "to", "yesterday"]
+      "options": ["They", "the", "went", "market", "to", "yesterday"]
     }
   ],
   "vocabulary": {
     "was": "ti",
-    "ate": "manzé",
-    "went": "al",
+    "ate": "ti manzé",
+    "drank": "ti bwar",
+    "went": "ti al",
+    "came": "ti vini",
+    "today": "zordi",
     "yesterday": "hier",
+    "morning": "gramatin",
     "evening": "soir",
     "last": "pasé",
     "Sunday": "dimans",

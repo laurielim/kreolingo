@@ -19,6 +19,20 @@
     },
     {
       "type": "fillBlank",
+      "question": ["So linet", "latab."],
+      "answer": "lor",
+      "options": ["lor", "dan", "kot"],
+      "translation": "His glasses are on the table."
+    },
+    {
+      "type": "fillBlank",
+      "question": ["", "li été?"],
+      "answer": "Kot",
+      "options": ["Kot", "Eski", "Laba"],
+      "translation": "Where is she?"
+    },
+    {
+      "type": "fillBlank",
       "question": ["Li al", "tou les Dimans."],
       "answer": "legliz",
       "options": ["legliz", "lakaz", "lontan"],
@@ -46,7 +60,13 @@
       "type": "multipleChoice",
       "question": "How do you say 'where'?",
       "answer": "kot",
-      "options": ["kot", "dan", "lor"]
+      "options": ["lor", "dan", "kot"]
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'on'?",
+      "answer": "lor",
+      "options": ["dan", "lor", "laba"]
     },
     {
       "type": "multipleChoice",
@@ -55,8 +75,14 @@
       "options": ["legliz", "lopital", "lekol"]
     },
     {
+      "type": "multipleChoice",
+      "question": "How do you say 'go'?",
+      "answer": "al",
+      "options": ["al", "été", "kone"]
+    },
+    {
       "type": "translate",
-      "question": "He is at school",
+      "question": "He is in school",
       "answer": "Li dan lekol",
       "options": ["dan", "Li", "lekol", "été", "lor"]
     },
@@ -70,7 +96,7 @@
       "type": "translate",
       "question": "Nou lakaz lor montagn",
       "answer": "Our house is on the mountain",
-      "options": ["house", "on", "Our", "is", "mountain"]
+      "options": ["house", "on", "Our", "is", "mountain", "the"]
     },
     {
       "type": "translate",
@@ -89,6 +115,7 @@
     "in": "dan",
     "there": "laba",
     "is/are": "été",
+    "go": "al",
     "mountain": "montagn"
   }
 }

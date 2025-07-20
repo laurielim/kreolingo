@@ -7,14 +7,21 @@
       "type": "fillBlank",
       "question": ["Mo papa", "dan ene labutik."],
       "answer": "travay",
-      "options": ["travay", "apel", "vle"],
+      "options": ["travay", "apel", "été"],
       "translation": "My dad works in a shop."
+    },
+    {
+      "type": "fillBlank",
+      "question": ["Ki to", "dan travay?"],
+      "answer": "fer",
+      "options": ["été", "apel", "fer"],
+      "translation": "What do you do at work?"
     },
     {
       "type": "fillBlank",
       "question": ["Li", "profeser."],
       "answer": "ene",
-      "options": ["ene", "apel", "dan"],
+      "options": ["apel", "ene", "dan"],
       "translation": "She is a teacher."
     },
     {
@@ -25,12 +32,19 @@
       "translation": "Does your mom go to work everyday?"
     },
     {
+      "type": "fillBlank",
+      "question": ["Mo frer ene", "."],
+      "answer": "dokter",
+      "options": ["legliz", "dokter", "lopital"],
+      "translation": "My brother is a doctor"
+    },
+    {
       "type": "match",
       "options": {
         "teacher": "profeser",
         "doctor": "dokter",
         "shop": "labutik",
-        "worker": "travayer"
+        "hospital": "lopital"
       }
     },
     {
@@ -46,7 +60,7 @@
       "type": "multipleChoice",
       "question": "How do you say 'doctor'?",
       "answer": "dokter",
-      "options": ["travayer", "dokter", "labutik"]
+      "options": ["lopital", "dokter", "labutik"]
     },
     {
       "type": "multipleChoice",
@@ -55,28 +69,46 @@
       "options": ["profeser", "dokter", "travay"]
     },
     {
-      "type": "translate",
-      "question": "Li travay dan lopital",
-      "answer": "He works at the hospital",
-      "options": ["He", "hospital", "at", "works", "doctor"]
+      "type": "multipleChoice",
+      "question": "How do you say 'work'?",
+      "answer": "travay",
+      "options": ["labutik", "dokter", "travay"]
     },
     {
       "type": "translate",
-      "question": "Mo mama ene travayer",
-      "answer": "My mom is a worker",
-      "options": ["is", "worker", "My", "mom", "a"]
+      "question": "Li travay dan lopital",
+      "answer": "He works at the hospital",
+      "options": ["He", "hospital", "at", "works", "doctor", "the"]
+    },
+    {
+      "type": "translate",
+      "question": "Mo mama ene profeser",
+      "answer": "My mom is a teacher",
+      "options": ["is", "teacher", "My", "mom", "a"]
+    },
+    {
+      "type": "translate",
+      "question": "Kot zot travay?",
+      "answer": "Where do you work",
+      "options": ["Where", "they", "you", "work", "do"]
     },
     {
       "type": "translate",
       "question": "What work do you do?",
       "answer": "Ki travay to fer",
       "options": ["travay", "to", "fer", "Ki", "été"]
+    },
+    {
+      "type": "translate",
+      "question": "She is a teacher in the school",
+      "answer": "Li ene profeser dan lekol la",
+      "options": ["profeser", "Li", "ene", "dan", "la", "lekol"]
     }
   ],
   "vocabulary": {
     "teacher": "profeser",
     "doctor": "dokter",
-    "worker": "travayer",
+    "hospital": "lopital",
     "shop": "labutik",
     "work": "travay",
     "do/make": "fer",
