@@ -15,6 +15,7 @@
 			A Duolingo inspired web app to help you learn Mauritian Creole. I made this application to help my
 			partner learn my mother tongue, maybe it can help you too.
 		</p>
+		<a href="/lessons/lesson-1" class="btn btn-lg variant-filled-primary">Start learning</a>
 		<div class="grid gap-8 grid-cols-1 lg:grid-cols-3">
 			{#each data.lessons as lesson}
 				<a href="{lesson.slug}" class="block">
