@@ -58,7 +58,7 @@
 			"type": "multipleChoice",
 			"question": "How do you say 'chair'?",
 			"answer": "sez",
-			"options": ["tab", "sez", "mont"]
+			"options": ["latab", "sez", "mont"]
 		},
 		{
 			"type": "multipleChoice",

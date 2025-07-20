@@ -7,14 +7,14 @@
 			"type": "fillBlank",
 			"question": ["Mo", "ene dipain."],
 			"answer": "envi",
-			"options": ["envi", "dilé", "manz"],
+			"options": ["envi", "dilé", "bwar"],
 			"translation": "I want a bread."
 		},
 		{
 			"type": "fillBlank",
 			"question": ["To bisin", "delo?"],
 			"answer": "bwar",
-			"options": ["manz", "bwar", "dipain"],
+			"options": ["manz", "bwar", "envi"],
 			"translation": "Do you need to drink water?"
 		},
 		{
@@ -23,6 +23,13 @@
 			"answer": "bisin",
 			"options": ["legim", "manzé", "bisin"],
 			"translation": "He needs his cup of milk every morning."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Zot", "al deor."],
+			"answer": "envi",
+			"options": ["legim", "manzé", "bisin"],
+			"translation": "They want to go outside."
 		},
 		{
 			"type": "match",
@@ -61,6 +68,12 @@
 			"options": ["linz", "legim", "fruit"]
 		},
 		{
+			"type": "multipleChoice",
+			"question": "How do you say 'every morning'?",
+			"answer": "sak matin",
+			"options": ["toultan", "sak matin", "tou les zour"]
+		},
+		{
 			"type": "translate",
 			"question": "I want water",
 			"answer": "Mo envi delo",
@@ -80,15 +93,15 @@
 		},
 		{
 			"type": "translate",
-			"question": "To manz fruit sak matin",
-			"answer": "You eat fruit every morning",
-			"options": ["fruit", "eat", "You", "every", "morning"]
+			"question": "To bizin manz fruit sak matin",
+			"answer": "You need to eat fruits every morning",
+			"options": ["fruits", "eat", "You", "every", "morning", "need", "to"]
 		},
 		{
 			"type": "translate",
-			"question": "Li pa manz legim",
-			"answer": "He does not eat vegetables",
-			"options": ["He", "not", "vegetables", "eat", "does"]
+			"question": "Li pa envi manz legim",
+			"answer": "He does not want to eat vegetables",
+			"options": ["He", "not", "vegetables", "eat", "does", "want", "to"]
 		}
 	],
 	"vocabulary": {

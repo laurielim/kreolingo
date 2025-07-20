@@ -94,7 +94,7 @@
 			"type": "translate",
 			"question": "Mo fami ena trwa dimoun",
 			"answer": "My family has three people",
-			"options": ["people", "has", "family", "My", "three"]
+			"options": ["people", "has", "family", "My", "three", "two"]
 		},
 		{
 			"type": "translate",

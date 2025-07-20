@@ -12,13 +12,6 @@
 		},
 		{
 			"type": "fillBlank",
-			"question": ["Tou les", "li al boner."],
-			"answer": "zour",
-			"options": ["zour", "zordi", "retar"],
-			"translation": "Everyday she goes early."
-		},
-		{
-			"type": "fillBlank",
 			"question": ["Mo pu vin", "demain."],
 			"answer": "boner",
 			"options": ["aster", "boner", "hier"],
@@ -95,13 +88,13 @@
 			"type": "translate",
 			"question": "Zordi mo al travay",
 			"answer": "Today I go to work",
-			"options": ["go", "Today", "I", "work", "late"]
+			"options": ["go", "Today", "I", "work", "late", "to"]
 		},
 		{
 			"type": "translate",
 			"question": "Mo pu al legliz dimans",
 			"answer": "I will go to church on Sunday",
-			"options": ["go", "Sunday", "will", "I", "church"]
+			"options": ["go", "Sunday", "will", "I", "church", "to"]
 		},
 		{
 			"type": "translate",
