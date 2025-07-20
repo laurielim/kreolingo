@@ -1,0 +1,121 @@
+{
+	"id": 8,
+	"title": "Lesson 8",
+	"description": "Express what you want or need",
+	"content": [
+		{
+			"type": "fillBlank",
+			"question": ["Mo", "ene dipain."],
+			"answer": "envi",
+			"options": ["envi", "dilé", "bwar"],
+			"translation": "I want a bread."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["To bisin", "delo?"],
+			"answer": "bwar",
+			"options": ["manz", "bwar", "envi"],
+			"translation": "Do you need to drink water?"
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Li", "so tas dilé sak matin."],
+			"answer": "bisin",
+			"options": ["legim", "manzé", "bisin"],
+			"translation": "He needs his cup of milk every morning."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Zot", "al deor."],
+			"answer": "envi",
+			"options": ["legim", "manzé", "bisin"],
+			"translation": "They want to go outside."
+		},
+		{
+			"type": "match",
+      "options": {
+        "I want": "Mo envi",
+        "You need": "To bisin",
+        "He wants": "Li envi",
+        "She needs": "Li bisin"
+      }
+		},
+		{
+			"type": "match",
+			"options": {
+				"vegetables": "legim",
+				"fruit": "fruit",
+				"food": "manzé",
+				"drink": "bwar"
+			}
+		},
+    {
+      "type": "multipleChoice",
+      "question": "How do you say 'You need'?",
+      "answer": "To bisin",
+      "options": ["Li envi", "To envi", "To bisin"]
+    },
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'I want'?",
+			"answer": "Mo envi",
+			"options": ["Mo bwar", "Mo envi", "Mo manz"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'vegetables'?",
+			"answer": "legim",
+			"options": ["linz", "legim", "fruit"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'every morning'?",
+			"answer": "sak matin",
+			"options": ["toultan", "sak matin", "tou les zour"]
+		},
+		{
+			"type": "translate",
+			"question": "I want water",
+			"answer": "Mo envi delo",
+			"options": ["Mo", "delo", "envi", "bwar", "dilé"]
+		},
+		{
+			"type": "translate",
+			"question": "Li envi manzé",
+			"answer": "He wants food",
+			"options": ["food", "He", "wants", "fruit", "milk"]
+		},
+		{
+			"type": "translate",
+			"question": "Mo bizin bwar delo",
+			"answer": "I need to drink water",
+			"options": ["drink", "need", "to", "I", "water"]
+		},
+		{
+			"type": "translate",
+			"question": "To bizin manz fruit sak matin",
+			"answer": "You need to eat fruits every morning",
+			"options": ["fruits", "eat", "You", "every", "morning", "need", "to"]
+		},
+		{
+			"type": "translate",
+			"question": "Li pa envi manz legim",
+			"answer": "He does not want to eat vegetables",
+			"options": ["He", "not", "vegetables", "eat", "does", "want", "to"]
+		}
+	],
+	"vocabulary": {
+		"milk": "dilé",
+		"water": "delo",
+		"bread": "dipain",
+		"rice": "diri",
+		"fruit": "fruit",
+		"vegetables": "legim",
+		"food": "manzé",
+		"drink": "bwar",
+		"want": "envi",
+		"need": "bisin",
+		"eat": "manz",
+		"every morning": "sak matin"
+	}
+}

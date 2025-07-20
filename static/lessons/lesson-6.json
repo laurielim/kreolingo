@@ -1,0 +1,123 @@
+{
+	"id": 6,
+	"title": "Lesson 6",
+	"description": "Talk about family and people",
+	"content": [
+		{
+			"type": "fillBlank",
+			"question": ["Mo", "ser apel Anya."],
+			"answer": "ti",
+			"options": ["ti", "to", "fami"],
+			"translation": "My little sister is called Anya."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Li ena", "frer ek ene ser."],
+			"answer": "trwa",
+			"options": ["trwa", "gran", "ti"],
+			"translation": "He has three brothers and one sister."
+		},
+		{
+			"type": "fillBlank",
+			"question": ["Eski to", "frer travay laba?"],
+			"answer": "gran",
+			"options": ["mo", "to", "gran"],
+			"translation": "Does your big brother work there?"
+		},
+		{
+			"type": "match",
+			"options": {
+				"mother": "mama",
+				"father": "papa",
+				"daughter": "tifi",
+				"son": "garson"
+			}
+		},
+		{
+			"type": "match",
+			"options": {
+				"sister": "ser",
+				"brother": "frer",
+				"family": "fami",
+				"person": "dimoun"
+			}
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'sister'?",
+			"answer": "ser",
+			"options": ["tifi", "ser", "mama"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'brother'?",
+			"answer": "frer",
+			"options": ["frer", "papa", "dimoun"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'family'?",
+			"answer": "fami",
+			"options": ["mama", "fami", "ser"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'person'?",
+			"answer": "dimoun",
+			"options": ["frer", "tifi", "dimoun"]
+		},
+		{
+			"type": "multipleChoice",
+			"question": "How do you say 'has'?",
+			"answer": "ena",
+			"options": ["to", "ena", "mo"]
+		},
+		{
+			"type": "translate",
+			"question": "I have a brother",
+			"answer": "Mo ena ene frer",
+			"options": ["Mo", "frer", "ene", "ena", "ser"]
+		},
+		{
+			"type": "translate",
+			"question": "She has two sisters",
+			"answer": "Li ena de ser",
+			"options": ["ser", "Li", "de", "ena", "tifi"]
+		},
+		{
+			"type": "translate",
+			"question": "To ena ene papa",
+			"answer": "You have a father",
+			"options": ["father", "You", "have", "a", "girl"]
+		},
+		{
+			"type": "translate",
+			"question": "Mo fami ena trwa dimoun",
+			"answer": "My family has three people",
+			"options": ["people", "has", "family", "My", "three", "two"]
+		},
+		{
+			"type": "translate",
+			"question": "Li ena ene tifi",
+			"answer": "He has a daughter",
+			"options": ["daughter", "He", "a", "has", "son"]
+		}
+	],
+	"vocabulary": {
+		"mother": "mama",
+		"father": "papa",
+		"son": "garson",
+		"daughter": "tifi",
+		"sister": "ser",
+		"brother": "frer",
+		"family": "fami",
+		"person": "dimoun",
+		"have": "ena",
+		"one": "ene",
+		"two": "de",
+		"three": "trwa",
+		"my": "mo",
+		"your": "to",
+		"his/her": "li"
+	}
+}
