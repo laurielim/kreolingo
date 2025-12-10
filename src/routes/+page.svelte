@@ -1,4 +1,6 @@
 <script>
+	import NewsletterSignup from '$lib/components/NewsletterSignup.svelte';
+
 	/** @type {import('./$types').PageData} */
 	export let data;
 </script>
@@ -7,7 +9,7 @@
 	<div class="space-y-10 flex flex-col items-center mb-8">
 		<div class="m-8 py-4 px-8 variant-soft-warning">
 			<p>
-				🚧 Kreolingo isn't being actively updated right now. If you'd like to see it grow or have feedback, feel free to reach out on <a class="anchor" href="https://www.linkedin.com/in/laurie-limsam" target="_blank">LinkedIn</a>!
+				🚧 Kreolingo isn't being actively updated right now. You can <a class="anchor" href="#subscribe">subscribe</a> to be notified when new lessons are available. If you have any feedback, feel free to reach out on <a class="anchor" href="https://www.linkedin.com/in/laurie-limsam" target="_blank">LinkedIn</a>!
 			</p>
 		</div>
 		<h1 class="h2 mt-16 text-center">Welcome to Kreolingo</h1>
@@ -30,5 +32,6 @@
 				</a>
 			{/each}
 		</div>
+		<NewsletterSignup />
 	</div>
 </div>
