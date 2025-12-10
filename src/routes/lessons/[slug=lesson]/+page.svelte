@@ -6,6 +6,7 @@
 	import MultipleChoice from '$lib/exercises/MultipleChoice.svelte';
 	import Translate from '$lib/exercises/Translate.svelte';
 	import { randomize } from '$lib/utils/helpers';
+	import Vocabulary from '$lib/components/Vocabulary.svelte';
 
 	const options = {
 		fillBlank: {
@@ -44,7 +45,7 @@
 	let container;
 
 	const onCompleteHandler = () => {
-		const modal = {
+		modalStore.trigger({
 			type: 'confirm',
 			title: 'Congratulations!',
 			body: `You have completed ${data.title.toLowerCase()}. Click on continue to go to the next lesson.`,
@@ -55,18 +56,29 @@
 					goto(`/lessons/lesson-${data.id + 1}`);
 				}
 			}
-		};
-		modalStore.trigger(modal);
+		});
 	};
-
 	export let data;
 	$: exercises = randomize(data.content);
 	$: lockedState = data.lock;
+	$: vocabularyComponent = {
+		ref: Vocabulary,
+		props: {data: data.vocabulary},
+	};
+	const onClickHandler = () => {
+		modalStore.trigger({
+			type: 'component',
+			component: vocabularyComponent,
+		})
+	}
 </script>
 
 <div bind:this={container} class="container mx-auto p-4 max-w-prose">
 	<h1 class="h1 mt-4 md:mt-8">{data.title}</h1>
-	<p class="mt-4">{data.description}</p>
+	<p class="mt-4 flex flex-wrap gap-x-4 gap-y-2">
+		<span class="">{data.description}</span>
+		<button type="button" class="badge variant-ghost hover:variant-outline-primary" on:click={onClickHandler}>See vocabulary</button>
+	</p>
 	<section class="my-16">
 		{#key exercises}
 			<Stepper regionHeader={'flex-wrap gap-x-3 gap-y-5'} on:next={onNexthandler} on:complete={onCompleteHandler}>
